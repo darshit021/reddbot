@@ -1,10 +1,10 @@
 const TeleBot = require('telebot');
 const fs = require('fs');
 const request = require('request');
-const bot = new TeleBot(token);
+const bot = new TeleBot(545104487:AAEPQlImsIDyL3zJ0-BuGiCHxdcoa6eEpAM);
 
 let db = {};
-let rLimit = 10;
+let rLimit = 20;
 
 function updateUser(userId, subreddit, option, postNum) {
     db[userId] = {subreddit, option, postNum};
